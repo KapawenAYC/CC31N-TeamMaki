@@ -5,8 +5,69 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CC31N_TeamMaki"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="768" Width="1024">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="225"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="305"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="305"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="MENU" Background="#0f4d92" Grid.ColumnSpan="3" Padding="5"/>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="52*"/>
+                <ColumnDefinition Width="253*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Content="PLAYER INFORMATION" Background="#00aae4 " Grid.ColumnSpan="2"/>
+            <Label Grid.Row="1" Grid.Column="0" Content="PLAYER IMAGE" Background="#92a1cf " Grid.ColumnSpan="2"/>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Content="QUEST" Background="#4f86f7" Grid.ColumnSpan="1" Grid.RowSpan="2"/>
+            <Label Grid.Row="1" Grid.Column="1" Content="INVENTORY" Background="#77b5fe" Grid.ColumnSpan="2"/>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Content="LOCATION" Background="GhostWhite" Grid.ColumnSpan="1"/>
+            <Label Grid.Row="2" Grid.Column="0" Content="ENEMY INFO" Background="#92a1cf" Grid.ColumnSpan="1"/>
+        </Grid>
+        <Grid Grid.Row="3" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Content="ITEM INFO" Background="#4997d0" Grid.ColumnSpan="1" Grid.RowSpan="2"/>
+            <Label Grid.Column="1" Content="ITEM BUTTON" Background="#45b1e8" Grid.ColumnSpan="1" Grid.RowSpan="2"/>
+        </Grid>
+        <Label Grid.Row="2" Grid.Column="2" Content="NAVIGATION BUTTONS" Background="#00aae4" Grid.ColumnSpan="1"/>
+        <Label Grid.Row="1" Grid.Column="1" Content="GAME MESSAGE" Background="Lavender" Grid.ColumnSpan="1"/>
 
     </Grid>
+
 </Window>
