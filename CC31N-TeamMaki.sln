@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CC31N-TeamMaki", "CC31N-TeamMaki.csproj", "{C5FE14BA-F86C-49CE-A83C-7B096EEB25EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{A76EB4A0-68CC-45C7-8AB5-B3EF634B15F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine", "..\Engine\Engine.csproj", "{DE4E2EC7-D132-4E17-B19D-A56C9CFB8752}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{C5FE14BA-F86C-49CE-A83C-7B096EEB25EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5FE14BA-F86C-49CE-A83C-7B096EEB25EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5FE14BA-F86C-49CE-A83C-7B096EEB25EC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A76EB4A0-68CC-45C7-8AB5-B3EF634B15F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A76EB4A0-68CC-45C7-8AB5-B3EF634B15F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A76EB4A0-68CC-45C7-8AB5-B3EF634B15F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A76EB4A0-68CC-45C7-8AB5-B3EF634B15F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4E2EC7-D132-4E17-B19D-A56C9CFB8752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4E2EC7-D132-4E17-B19D-A56C9CFB8752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4E2EC7-D132-4E17-B19D-A56C9CFB8752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4E2EC7-D132-4E17-B19D-A56C9CFB8752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

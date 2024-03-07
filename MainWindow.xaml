@@ -29,7 +29,37 @@
                 <ColumnDefinition Width="52*"/>
                 <ColumnDefinition Width="253*"/>
             </Grid.ColumnDefinitions>
-            <Label Grid.Row="0" Grid.Column="0" Content="PLAYER INFORMATION" Background="#00aae4 " Grid.ColumnSpan="2"/>
+
+
+            <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="-3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Content="NAME: "/>
+                <Label Grid.Row="0" Grid.Column="1" Content="{Binding CurrentPlayer.Name}"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="CLASS: "/>
+                <Label Grid.Row="1" Grid.Column="1" Content="{Binding CurrentPlayer.CharacterClass}"/>
+                <Label Grid.Row="2" Grid.Column="0" Content="HIT POINTS: "/>
+                <Label Grid.Row="2" Grid.Column="1" Content="{Binding CurrentPlayer.HitPoints}"/>
+                <Label Grid.Row="3" Grid.Column="0" Content="GOLD: "/>
+                <Label Grid.Row="3" Grid.Column="1" Content="{Binding CurrentPlayer.Gold}"/>
+                <Label Grid.Row="4" Grid.Column="0" Content="EXP: "/>
+                <Label Grid.Row="4" Grid.Column="1" Content="{Binding CurrentPlayer.ExpPoints}"/>
+                <Label Grid.Row="5" Grid.Column="0" Content="LEVEL: "/>
+                <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.Level}"/>
+
+            </Grid>
+            
             <Label Grid.Row="1" Grid.Column="0" Content="PLAYER IMAGE" Background="#92a1cf " Grid.ColumnSpan="2"/>
         </Grid>
         <Grid Grid.Row="2" Grid.Column="0">

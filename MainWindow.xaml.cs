@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Engine.View_Model;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,8 +17,12 @@ namespace CC31N_TeamMaki;
 /// </summary>
 public partial class MainWindow : Window
 {
+    private Game_Session _gameSession;
     public MainWindow()
     {
         InitializeComponent();
+        _gameSession = new Game_Session();
+        DataContext = _gameSession;
+
     }
 }
